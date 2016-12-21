@@ -11,6 +11,8 @@ windows下qq收到新消息时提醒linux, 特别适合虚拟机环境linux host
 ### 2. 设置QQ  
 选中 `允许来消息时自动弹出窗口`
 
+![](https://raw.githubusercontent.com/binaryer/qqmsg4l/master/qqsetting.png)
+
 ### 3. windows下运行消息推送端
 ```bash
 # x.x.x.x为步骤1的服务端地址
