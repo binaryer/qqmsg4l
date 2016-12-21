@@ -28,3 +28,4 @@ java -jar qq_notice.jar http://x.x.x.x/qq_notice.jsp
 chunyu_lin@163.com
 
 ## Download
+https://github.com/binaryer/qqmsg4l/releases
