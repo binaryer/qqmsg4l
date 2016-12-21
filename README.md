@@ -6,10 +6,11 @@ windows下qq收到新消息时提醒linux, 特别适合虚拟机环境linux host
 把 `qq_notice.jsp` 和 `zepto.min.js` 复制到tomcat webapps目录
 
 ### 2. 设置QQ  
-选中"允许来消息时自动弹出窗口"
+选中 `允许来消息时自动弹出窗口`
 
 ### 3. windows下运行消息推送端
 ```bash
+# x.x.x.x为步骤1的服务端地址
 java -jar qqnotice.jar http://x.x.x.x/qq_notice.jsp
 ```
 
