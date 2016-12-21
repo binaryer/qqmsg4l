@@ -19,5 +19,7 @@ java -jar qqnotice.jar http://x.x.x.x/qq_notice.jsp
 
 
 ## Author
+林春宇@深圳  
+chunyu_lin@163.com
 
 ## Download
