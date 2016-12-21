@@ -2,6 +2,8 @@
 windows下qq收到新消息时提醒linux, 特别适合虚拟机环境linux host + windows guest   
 实现原理是通过JNA调用Windows API `FindWindowEx`
 
+![](https://raw.githubusercontent.com/binaryer/qqmsg4l/master/2016-12-21-110112_1920x1080_scrot.png)
+
 ## Usage
 ### 1. 安装服务端
 把 `qq_notice.jsp` 和 `zepto.min.js` 复制到tomcat webapps目录
