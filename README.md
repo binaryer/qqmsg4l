@@ -16,7 +16,7 @@ windows下qq收到新消息时提醒linux, 特别适合虚拟机环境linux host
 ### 3. windows下运行消息推送端
 ```bash
 # x.x.x.x为步骤1的服务端地址
-java -jar qqnotice.jar http://x.x.x.x/qq_notice.jsp
+java -jar qq_notice.jar http://x.x.x.x/qq_notice.jsp
 ```
 
 ### 4. linux下运行消息接收端  
