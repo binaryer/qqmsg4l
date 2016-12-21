@@ -1,6 +1,6 @@
 # qqmsg4l
-windows下qq收到新消息时提醒linux, 特别适合虚拟机环境linux host + windows guest  
-通过JNA使用Windows API `FindWindowEx`
+windows下qq收到新消息时提醒linux, 特别适合虚拟机环境linux host + windows guest   
+实现原理是通过JNA调用Windows API `FindWindowEx`
 
 ## Usage
 ### 1. 安装服务端
