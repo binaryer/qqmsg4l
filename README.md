@@ -1,5 +1,6 @@
 # qqmsg4l
-windows下qq收到新消息时提醒linux, 特别适合虚拟机环境linux host + windows guest
+windows下qq收到新消息时提醒linux, 特别适合虚拟机环境linux host + windows guest  
+通过JNA使用Windows API `FindWindowEx`
 
 ## Usage
 ### 1. 安装服务端
@@ -15,7 +16,7 @@ java -jar qqnotice.jar http://x.x.x.x/qq_notice.jsp
 ```
 
 ### 4. linux下运行消息接收端  
-用支持HTML5的浏览器访问 http://x.x.x.x/qq_notice.jsp
+用支持HTML5的浏览器访问 http://x.x.x.x/qq_notice.jsp, QQ收到新消息时会弹出提示
 
 
 ## Author
