@@ -14,6 +14,7 @@ windows下qq收到新消息时提醒linux, 特别适合虚拟机环境linux host
 ![](https://raw.githubusercontent.com/binaryer/qqmsg4l/master/qqsetting.png)
 
 ### 3. windows下运行消息推送端
+__Requires Java >= 7__
 ```bash
 # x.x.x.x为步骤1的服务端地址
 java -jar qq_notice.jar http://x.x.x.x/qq_notice.jsp
